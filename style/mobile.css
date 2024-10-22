@@ -1,0 +1,137 @@
+@media (max-width: 768px) {
+  #brand-info {
+    align-items: center;
+  }
+
+  #brand-logo {
+    display: inline;
+  }
+
+  #brand-name {
+    display: inline;
+  }
+
+  .contact-logo {
+    height: 45px;
+    margin: 2px;
+    padding: 1px;
+    align-content: last baseline;
+  }
+  #intro {
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  #intro-para {
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #intro-heading {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  #navigatoion-bar {
+    background-color: #e5d9f2;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+  }
+
+  #profile-img {
+    float: right;
+  }
+
+  #nav-brand {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  #navbarTogglerDemo01 {
+    font-size: 20px;
+    font-weight: bold;
+    align-items: left;
+  }
+
+  #Portfolio-btn:hover {
+    background: #e88c84;
+    text-decoration: none;
+  }
+
+  #Portfolio-btn {
+    margin: 0 auto auto 0;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #ec685a;
+    background: #ec685a;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  #study-img {
+    float: left;
+  }
+
+  #body {
+    background-color: #e5d9f2;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #2466a8;
+    position-anchor: 20px;
+  }
+
+  .hrtitle {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .h2 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .sect-pd {
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+  }
+
+  #hr-text {
+    font-weight: bold;
+    text-align: center;
+  }
+  #hrline {
+    margin: 1rem 0rem;
+    border: none;
+    border-top: 5px solid #ec685a;
+    display: none;
+  }
+
+  .carousel-item {
+    padding: 0% 7%;
+    margin: auto;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    filter: invert(100%);
+  }
+}
+
+@media (max-width: 321px) {
+  #Portfolio-btn {
+    display: block;
+    margin: auto;
+    color: #ffffff;
+  }
+  .contact-logo {
+    size: 123px;
+    padding: 6px 8px;
+    margin: auto;
+  }
+}
