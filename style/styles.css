@@ -9,9 +9,17 @@
 #brand-name {
   display: inline;
 }
+
+.contact-logo {
+  height: 45px;
+  margin: 2px;
+  padding: 1px;
+  align-content: last baseline;
+}
 #intro {
   text-align: left;
   padding: 2rem;
+  margin: 1rem;
 }
 
 #intro-para {
@@ -28,6 +36,10 @@
   background-color: #e5d9f2;
   font-family: "Raleway", sans-serif;
   font-style: normal;
+}
+
+#profile-img {
+  float: right;
 }
 
 #nav-brand {
@@ -67,4 +79,31 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.hrtitle {
+  font-weight: bold;
+  text-align: left;
+}
+
+.h2 {
+  font-weight: bold;
+  text-align: left;
+}
+
+#about {
+  text-align: left;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+#hr-text {
+  font-weight: bold;
+  text-align: left;
+}
+#hrline {
+  margin: 1rem 0rem;
+  border: none;
+  border-top: 5px solid #ec685a;
+  opacity: 0.8;
 }
