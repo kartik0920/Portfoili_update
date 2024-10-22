@@ -79,6 +79,7 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  color: #2466a8;
 }
 
 .hrtitle {
@@ -91,7 +92,7 @@
   text-align: left;
 }
 
-#about {
+.sect-pd {
   text-align: left;
   padding: 2rem;
   margin: 1rem;
@@ -106,4 +107,13 @@
   border: none;
   border-top: 5px solid #ec685a;
   opacity: 0.8;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
 }
