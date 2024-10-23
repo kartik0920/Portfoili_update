@@ -1,3 +1,11 @@
+#body {
+  background-color: #e5d9f2;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #2466a8;
+}
+
 #brand-info {
   align-items: center;
 }
@@ -10,12 +18,54 @@
   display: inline;
 }
 
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+}
+
 .contact-logo {
   height: 45px;
   margin: 2px;
   padding: 1px;
   align-content: last baseline;
 }
+
+#contact {
+  margin: 0;
+}
+
+#hrfooter {
+  border: none;
+  border-top: solid #ec685a 3px;
+  opacity: 0.6;
+  margin: 0 0 0 0;
+}
+
+.hrtitle {
+  font-weight: bold;
+  text-align: left;
+}
+
+.h2 {
+  font-weight: bold;
+  text-align: left;
+}
+
+#hr-text {
+  font-weight: bold;
+  text-align: left;
+}
+#hrline {
+  margin: 1rem 0rem;
+  border: none;
+  border-top: 5px solid #ec685a;
+  opacity: 0.8;
+}
+
 #intro {
   text-align: left;
   padding: 2rem;
@@ -74,46 +124,8 @@
   float: left;
 }
 
-#body {
-  background-color: #e5d9f2;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  color: #2466a8;
-}
-
-.hrtitle {
-  font-weight: bold;
-  text-align: left;
-}
-
-.h2 {
-  font-weight: bold;
-  text-align: left;
-}
-
 .sect-pd {
   text-align: left;
   padding: 2rem;
   margin: 1rem;
-}
-
-#hr-text {
-  font-weight: bold;
-  text-align: left;
-}
-#hrline {
-  margin: 1rem 0rem;
-  border: none;
-  border-top: 5px solid #ec685a;
-  opacity: 0.8;
-}
-
-.carousel-item {
-  padding: 7% 15%;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-  filter: invert(100%);
 }
